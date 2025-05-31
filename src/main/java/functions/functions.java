@@ -4,7 +4,7 @@ import javax.swing.*;
 
 
 
-public class functions {
+public  final class functions {
     private JFrame window;
     private JTextArea textArea;
 
@@ -14,7 +14,7 @@ public class functions {
         this.textArea = textArea;
     }
 
-    public void createMenu() {
+    public  void createMenu() {
         JMenuBar menuBar = new JMenuBar();
         JMenu menuArchieve = new JMenu("\uD83D\uDCA9");
 
